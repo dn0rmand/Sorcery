@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Sorcery.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>SorceryMac.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>895EA20C1A59A1F90062374A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>895EA22A1A59A1F90062374A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>89E39EBC1AA1731700999D62</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>89E39ED31AA1731700999D62</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

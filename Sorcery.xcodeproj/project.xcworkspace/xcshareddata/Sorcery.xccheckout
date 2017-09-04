@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>03A55035-67FA-465E-B28E-06921BFDF956</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Sorcery</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>07390871-b67e-4167-9f38-f35b11aedd38</key>
+		<string>https://svn.bettercodes.org/manicminer</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Sorcery/Sorcery.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>07390871-b67e-4167-9f38-f35b11aedd38</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>07390871-b67e-4167-9f38-f35b11aedd38</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>07390871-b67e-4167-9f38-f35b11aedd38</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>07390871-b67e-4167-9f38-f35b11aedd38</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Games</string>
+		</dict>
+	</array>
+</dict>
+</plist>

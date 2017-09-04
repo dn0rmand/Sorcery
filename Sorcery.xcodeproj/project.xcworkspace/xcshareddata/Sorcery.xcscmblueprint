@@ -1,0 +1,40 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "86c20d57-8de1-4da5-8a2e-bbf640f85c56+++1F487B0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "86c20d57-8de1-4da5-8a2e-bbf640f85c56+++1F487B0" : {
+
+    },
+    "07390871-b67e-4167-9f38-f35b11aedd38+++34DDFBB" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "86c20d57-8de1-4da5-8a2e-bbf640f85c56+++1F487B0" : 0,
+    "07390871-b67e-4167-9f38-f35b11aedd38+++34DDFBB" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "03A55035-67FA-465E-B28E-06921BFDF956",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "86c20d57-8de1-4da5-8a2e-bbf640f85c56+++1F487B0" : "",
+    "07390871-b67e-4167-9f38-f35b11aedd38+++34DDFBB" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Sorcery",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 203,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Sorcery.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/svn.bettercodes.org\/manicminer",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "07390871-b67e-4167-9f38-f35b11aedd38+++34DDFBB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/svn.bettercodes.org\/sorcery",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "86c20d57-8de1-4da5-8a2e-bbf640f85c56+++1F487B0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/svn.bettercodes.org\/sorcery",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "86c20d57-8de1-4da5-8a2e-bbf640f85c56+++1F487B0"
+    }
+  ]
+}
