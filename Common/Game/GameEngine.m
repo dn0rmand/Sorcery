@@ -83,7 +83,7 @@ static GameEngine*	_sharedEngine = nil;
 	self.informationPanel.carrying = carrying;
 }
 
--(void)goThroughDoor:(Door*)door withScene:(SKScene*)scene andCallback:(void (^)())block;
+-(void)goThroughDoor:(Door*)door withScene:(SKScene*)scene andCallback:(void (^)(void))block;
 {
 	GameScene* gameScene = (GameScene*)scene;
 	

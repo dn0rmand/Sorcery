@@ -211,7 +211,7 @@
 	}
 }
 
--(void)OpenAndMoveWizard:(Wizard*)wizard completion:(void (^)())block
+-(void)OpenAndMoveWizard:(Wizard*)wizard completion:(void (^)(void))block
 {
 	if (self.sprite == nil)
 		return;
@@ -237,7 +237,7 @@
 	SKAction* sound		= [SKAction playSoundFileNamed:@"OpenDoor.mp3" waitForCompletion:YES];
 	SKAction* action	= [SKAction group:@[animation, sound]];
 
-	void (^completed)();
+    void (^completed)(void);
 	
 	if (moveWizard != nil && wizard != nil && wizard.sprite != nil)
 		completed = ^{ [wizard.sprite runAction:moveWizard completion:block]; };

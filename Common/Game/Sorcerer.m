@@ -250,7 +250,7 @@ const float MINX = CENTER;
 	return NO;
 }
 
--(void)doPlouf:(void (^)())block
+-(void)doPlouf:(void (^)(void))block
 {
 	CGPoint p = self.position;
 	
@@ -269,7 +269,7 @@ const float MINX = CENTER;
 	[self.sprite runAction:actions completion:block];
 }
 
--(void)die:(void (^)())block
+-(void)die:(void (^)(void))block
 {
 	SKAction*	animation	= [SKSpriteNode getAnimation:@"Explosion" withAtlas:@"Animations" speed:1.1f/4 andRestore:NO];
 				animation	= [SKAction sequence:@[animation, [SKAction hide]]];

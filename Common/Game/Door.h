@@ -32,7 +32,7 @@
 -(void)removeFromScene:(SKScene*)scene;
 -(void)unload;
 
--(void)OpenAndMoveWizard:(Wizard*)wizard completion:(void (^)())block;
+-(void)OpenAndMoveWizard:(Wizard*)wizard completion:(void (^)(void))block;
 -(void)CloseAndMoveWizard:(Wizard*)wizard;
 -(void)CloseDoor;
 -(NSDictionary*)serialize;

@@ -113,7 +113,7 @@
 			if ([oldAnimation compare:newAnimation] == NSOrderedSame)
 				return;
 			
-			void (^finalizeDirection)() = ^void() {
+            void (^finalizeDirection)(void) = ^void() {
 				NSString*		type		= [EnumHelper characterTypeToString:self.type];
 				NSString*		animation	= [NSString stringWithFormat:@"%@%@", type, newAnimation];
 			
@@ -132,7 +132,7 @@
 
 					SKAction* anim1 = [SKSpriteNode getAnimation:animation withAtlas:@"Characters" speed:0.2f andRestore:NO];
 					SKAction* end   = [SKAction runBlock:^{
-						_changingDirection = NO;
+                        self->_changingDirection = NO;
 						finalizeDirection();
 					}];
 					
@@ -149,7 +149,7 @@
 					
 					SKAction* anim1 = [SKSpriteNode getAnimation:animation withAtlas:@"Characters" speed:0.2f andRestore:NO];
 					SKAction* end   = [SKAction runBlock:^{
-						_changingDirection = NO;
+                        self->_changingDirection = NO;
 						finalizeDirection();
 					}];
 					

@@ -340,7 +340,7 @@
 		[self.game goThroughDoor:door withScene:self andCallback:^{
 			sorcerer.collisionBitMask = old;
 			//sorcerer.affectedByGravity = YES;
-			_movingAway = NO;
+            self->_movingAway = NO;
 		}];
 	}
 }
@@ -481,7 +481,7 @@
 		{
 			_movingAway = YES;
 			[self.game goThroughDoor:(Door*)obj withScene:self andCallback:^{
-				_movingAway = NO;
+                self->_movingAway = NO;
 			}];
 		}
 		else if ((obj = [self getRoomObject:node.name forPrefix:@"static-"]) != nil)

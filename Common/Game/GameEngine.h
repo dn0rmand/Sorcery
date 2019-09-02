@@ -29,7 +29,7 @@
 -(instancetype)initWithRoom:(int)roomIndex;
 +(instancetype)createWithRoom:(int)roomIndex;
 
--(void)goThroughDoor:(Door*)door withScene:(SKScene*)scene andCallback:(void (^)())block;
+-(void)goThroughDoor:(Door*)door withScene:(SKScene*)scene andCallback:(void (^)(void))block;
 
 -(void)addToScene:(SKScene*) scene;
 -(void)removeFromScene:(SKScene*) scene;

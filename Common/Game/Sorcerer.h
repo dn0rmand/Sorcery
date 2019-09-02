@@ -30,7 +30,7 @@
 -(BOOL)canGoThroughDoor:(Door*)door;
 -(void)update:(CFTimeInterval)currentTime withGame:(GameEngine*)game;
 
--(void)doPlouf:(void (^)())block;
--(void)die:(void (^)())block;
+-(void)doPlouf:(void (^)(void))block;
+-(void)die:(void (^)(void))block;
 
 @end
